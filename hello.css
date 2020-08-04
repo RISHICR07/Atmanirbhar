@@ -1,0 +1,12 @@
+body{
+background: .\backgrounds\body.jpg
+}
+iframe {
+  background-color: transparent;
+  border: 0;
+  color: black;
+}
+iframe.transparent {
+  opacity: 0.8;
+}
+

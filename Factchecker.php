@@ -1,0 +1,348 @@
+<?php
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fact checker</title>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Factchecker.css">
+</head>
+<body>
+    <h1 style = "font-size: 45px; color:cornsilk; font-family: 'Copperplate Gothic Bold'; background: rgb(51, 4, 35);">MythBusters</h1>
+    <section>
+        <div class="container">
+            <div class="accordion">
+                <div class="accordion-item" id="question1">
+                    <a class="accordion-link" href="#question1">
+                        Myth: The prolonged use of medical masks* when properly worn, DOES NOT cause CO2 intoxication nor oxygen deficiency.
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> The prolonged use of medical masks can be uncomfortable. However, it does not lead to CO2 intoxication nor oxygen deficiency. While wearing a medical mask, make sure it fits properly and that it is tight enough to allow you to breathe normally. Do not re-use a disposable mask and always change it as soon as it gets damp.
+                            Medical masks (also known as surgical masks) are flat or pleated; they are affixed to the head with straps or have ear loops.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question2">
+                    <a class="accordion-link" href="#question2">
+                        Myth: Most people who get COVID-19 recover from it
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> Most people who get COVID-19 have mild or moderate symptoms and can recover thanks to supportive care. If you have a cough, fever and difficulty breathing seek medical care early - call your health facility by telephone first. If you have fever and live in an area with malaria or dengue seek medical care immediately.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question3">
+                    <a class="accordion-link" href="#question3">
+                        Myth: Drinking alcohol does not protect you against COVID-19 and can be dangerous
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> The harmful use of alcohol increases your risk of health problems.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question4">
+                    <a class="accordion-link" href="#question4">
+                        Myth: Thermal scanners CANNOT detect COVID-19
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> Thermal scanners are effective in detecting people who have a fever (i.e. have a higher than normal body temperature). They cannot detect people who are infected with COVID-19. There are many causes of fever. Call your healthcare provider if you need assistance or seek immediate medical care if you have fever and live in an area with malaria or dengue.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question5">
+                    <a class="accordion-link" href="#question5">
+                        Myth: There are currently no drugs licensed for the treatment or prevention of COVID-19
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b>  While several drug trials are ongoing, there is currently no proof that hydroxychloroquine or any other drug can cure or prevent COVID-19. The misuse of hydroxychloroquine can cause serious side effects and illness and even lead to death. WHO is coordinating efforts to develop and evaluate medicines to treat COVID-19. 
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question6">
+                    <a class="accordion-link" href="#question6">
+                        Myth: Adding pepper to your soup or other meals DOES prevent or cure COVID-19
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> Hot peppers in your food, though very tasty, cannot prevent or cure COVID-19. The best way to protect yourself against the new coronavirus is to keep at least 1 metre away from others and to wash your hands frequently and thoroughly. It is also beneficial for your general health to maintain a balanced diet, stay well hydrated, exercise regularly and sleep well.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question7">
+                    <a class="accordion-link" href="#question7">
+                        Myth: COVID-19 IS transmitted through houseflies
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> To date, there is no evidence or information to suggest that the COVID-19 virus transmitted through houseflies. The virus that cause COVID-19 spreads primarily through droplets generated when an infected person coughs, sneezes or speaks. You can also become infected by touching a contaminated surface and then touching your eyes, nose or mouth before washing your hands. To protect yourself, keep at least 1-metre distance from others and disinfect frequently-touched surfaces. Clean your hands thoroughly and often and avoid touching your eyes, mouth and nose.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question8">
+                    <a class="accordion-link" href="#question8">
+                        Myth: Spraying and introducing bleach or another disinfectant into your body WILL NOT protect you against COVID-19 and can be dangerous
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> Do not under any circumstance spray or introduce bleach or any other disinfectant into your body. These substances can be poisonous if ingested and cause irritation and damage to your skin and eyes.
+                            Bleach and disinfectant should be used carefully to disinfect surfaces only. Remember to keep chlorine (bleach) and other disinfectants out of reach of children.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question9">
+                    <a class="accordion-link" href="#question9">
+                        Myth: Drinking methanol, ethanol or bleach prevent or cure COVID-19 and can be extremely dangerous
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> Methanol, ethanol, and bleach are poisons. Drinking them can lead to disability and death. Methanol, ethanol, and bleach are sometimes used in cleaning products to kill the virus on surfaces – however you should never drink them. They will not kill the virus in your body and they will harm your internal organs.
+                        To protect yourself against COVID-19, disinfect objects and surfaces, especially the ones you touch regularly. You can use diluted bleach or alcohol for that. Make sure you clean your hands frequently and thoroughly and avoid touching your eyes, mouth and nose.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question10">
+                    <a class="accordion-link" href="#question10">
+                        Myth: 5G mobile networks DO spread COVID-19
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> 5G mobile networks DO NOT spread COVID-19
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question11">
+                    <a class="accordion-link" href="#question11">
+                        Myth: Exposing yourself to the sun or to temperatures higher than 25C degrees prevent the coronavirus disease (COVID-19)
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> You can catch COVID-19, no matter how sunny or hot the weather is. Countries with hot weather have reported cases of COVID-19. To protect yourself, make sure you clean your hands frequently and thoroughly and avoid touching your eyes, mouth, and nose.  
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question12">
+                    <a class="accordion-link" href="#question12">
+                        Myth: You can not recover from the coronavirus disease (COVID-19). Catching the new coronavirus mean you will have it for life.
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> Most of the people who catch COVID-19 can recover and eliminate the virus from their bodies. If you catch the disease, make sure you treat your symptoms. If you have cough, fever, and difficulty breathing, seek medical care early – but call your health facility by telephone first. Most patients recover thanks to supportive care.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question13">
+                    <a class="accordion-link" href="#question13">
+                    Myth: Being able to hold your breath for 10 seconds or more without coughing or feeling discomfort mean you are free from the coronavirus disease (COVID-19) or any other lung disease.
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> The most common symptoms of COVID-19 are dry cough, tiredness and fever. Some people may develop more severe forms of the disease, such as pneumonia. The best way to confirm if you have  the virus producing COVID-19 disease is with a laboratory test.  You cannot confirm it with this breathing exercise, which can even be dangerous.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question14">
+                    <a class="accordion-link" href="#question14">
+                        Myth: Drinking alcohol protect you against COVID-19 and can be dangerous
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> Frequent or excessive alcohol consumption can increase your risk of health problems. 
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question15">
+                    <a class="accordion-link" href="#question15">
+                        Myth: COVID-19 virus can not be transmitted in areas with hot and humid climates
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> The best way to protect yourself against COVID-19 is by maintaining physical distance of at least 1 metre from others and frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question16">
+                    <a class="accordion-link" href="#question16">
+                        Myth: Cold weather and snow CAN kill the new coronavirus.
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> There is no reason to believe that cold weather can kill the new coronavirus or other diseases. The normal human body temperature remains around 36.5°C to 37°C, regardless of the external temperature or weather. The most effective way to protect yourself against the new coronavirus is by frequently cleaning your hands with alcohol-based hand rub or washing them with soap and water.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question17">
+                    <a class="accordion-link" href="#question17">
+                        Myth: Taking a hot bath prevent the new coronavirus disease
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> Taking a hot bath will not prevent you from catching COVID-19. Your normal body temperature remains around 36.5°C to 37°C, regardless of the temperature of your bath or shower. Actually, taking a hot bath with extremely hot water can be harmful, as it can burn you. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question18">
+                    <a class="accordion-link" href="#question18">
+                        Myth: The new coronavirus CAN be transmitted through mosquito bites.
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> To date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question19">
+                    <a class="accordion-link" href="#question19">
+                        Myth: Hand dryers are effective in killing the new coronavirus
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> No. Hand dryers are not effective in killing the 2019-nCoV. To protect yourself against the new coronavirus, you should frequently clean your hands with an alcohol-based hand rub or wash them with soap and water. Once your hands are cleaned, you should dry them thoroughly by using paper towels or a warm air dryer.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question20">
+                    <a class="accordion-link" href="#question20">
+                        Myth:Ultra-violet (UV) lamps should be used to disinfect hands or other areas of your skin
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> UV radiation can cause skin irritation and damage your eyes.
+                            Cleaning your hands with alcohol-based hand rub or washing your hands with soap and water are the most effective ways to remove the virus.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question21">
+                    <a class="accordion-link" href="#question21">
+                        Myth: Vaccines against pneumonia protect you against the new coronavirus
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> No. Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not provide protection against the new coronavirus.
+                            The virus is so new and different that it needs its own vaccine. Researchers are trying to develop a vaccine against 2019-nCoV, and WHO is supporting their efforts.
+                            Although these vaccines are not effective against 2019-nCoV, vaccination against respiratory illnesses is highly recommended to protect your health.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question22">
+                    <a class="accordion-link" href="#question22">
+                        Myth: Regularly rinsing your nose with saline help prevent infection with the new coronavirus
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> No. There is no evidence that regularly rinsing the nose with saline has protected people from infection with the new coronavirus. 
+                            There is some limited evidence that regularly rinsing nose with saline can help people recover more quickly from the common cold. However, regularly rinsing the nose has not been shown to prevent respiratory infections.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question23">
+                    <a class="accordion-link" href="#question23">
+                        Myth: Eating garlic help prevent infection with the new coronavirus
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question24">
+                    <a class="accordion-link" href="#question24">
+                        Myth: The new coronavirus affect older people, or are younger people also susceptible
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> People of all ages can be infected by the new coronavirus (2019-nCoV). Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable to becoming severely ill with the virus. 
+                            WHO advises people of all ages to take steps to protect themselves from the virus, for example by following good hand hygiene and good respiratory hygiene.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question25">
+                    <a class="accordion-link" href="#question25">
+                        Myth: Antibiotics effective in preventing and treating the new coronavirus
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> No, antibiotics do not work against viruses, only bacteria.
+                            The new coronavirus (2019-nCoV) is a virus and, therefore, antibiotics should not be used as a means of prevention or treatment.
+                            However, if you are hospitalized for the 2019-nCoV, you may receive antibiotics because bacterial co-infection is possible.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question26">
+                    <a class="accordion-link" href="#question26">
+                        Myth: There are specific medicines to prevent or treat the new coronavirus
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            <b>Fact:</b> To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV).
+                            However, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners.
+                        </p>
+                    </div>
+					<button type="button"><a href="Atmanirbhar.html" style="color:black">Home</a></button>	
+					</div>
+                <div.class="overlay"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

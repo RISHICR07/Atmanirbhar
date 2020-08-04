@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Covid-19 Statistics </title>
+<h1> COVID-19 Statistics
+<p style="font-style:italic;font-size:50%;text-align:centre;"> Indian States and Union Territories.</p>
+</h1>
+<marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()"><h2>We are in the midst of an unprecedented and unfortunate situation in light of the COVID-19 pandemic. In these times of crisis, our heart goes out to those affected by this pandemic and we salute and thank the selfless commitment of those working tirelessly at the frontlines against COVID-19.
+We are continuously and closely monitoring the situation and would like to share some important updates with you.</h2></marquee>
+
+<link rel="stylesheet"type "text/css" href="hackathon.css">
+
+ <script>
+window.onload = function () {
+	
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	height: 800,
+	dataPointMaxWidth: 10,
+	backgroundColor: 'transparent',
+	colorSet: "customColorSet1",
+	axisX:{
+		labelFontColor: "yellow",
+		labelFontSize: 15,
+		interval: 1.0
+	},
+	axisY2:{
+		labelFontColor: "yellow",
+		labelFontSize: 15,
+		interlacedColor: "rgba(1,77,101,.2)",
+		gridColor: "rgba(1,77,101,.1)",
+		
+	},
+	title:{
+        text: "Confirmed Cases",
+		fontColor: "red",
+      },
+	 
+	data: [{
+		type: "bar",
+		name: "cases",
+		axisYType: "secondary",
+		color: "#FF0000",
+		dataPoints: [
+		    { y: 33, label: "Andaman and Nicobar" },
+			{ y: 4510, label: "Andra Pradesh" },
+			{ y: 47, label: "Arunachal Pradesh" },
+			{ y: 2397, label: "Assam" },
+			{ y: 4915, label: "Bihar" },
+			{ y: 309, label: "Chandigarh" },
+			{ y: 923, label: "Chattisgarh" },
+			{ y: 19, label: "Dadra and Nagar Haveli" },
+			{ y: 0, label: "Daman and Diu" },
+			{ y: 27654, label: "Delhi" },
+			{ y: 267, label: "Goa" },
+			{ y: 19592, label: "Gujarat" },
+			{ y: 3952, label: "Haryana" },
+			{ y: 400, label: "Himachal Pradesh" },
+			{ y: 3467, label: "Jammu and Kashmir" },
+			{ y: 1000, label: "Jharkhand" },
+			{ y: 5213, label: "Karnataka" },
+			{ y: 1807, label: "Kerala" },
+			{ y: 99, label: "Ladakh" },
+			{ y: 0, label: "Lakhwadeep" },
+			{ y: 82968, label: "Maharastra" },
+			{ y: 157, label: "Manipur" },
+			{ y: 33, label: "Meghalaya" },
+			{ y: 24, label: "Mizoram" },
+			{ y: 9228, label: "Madhya Pradesh" },
+			{ y: 107, label: "Nagaland" },
+			{ y: 2781, label: "Odisha" },
+			{ y: 99, label: "Poducherry" },
+			{ y: 2515, label: "Punjab" },
+			{ y: 10331, label: "Rajasthan" },
+			{ y: 7, label: "Sikkim" },
+			{ y: 30152, label: "Tamil Nadu" },
+			{ y: 3496, label: "Telengana" },
+			{ y: 747, label: "Tripura" },
+			{ y: 9733, label: "Uttar Pradesh" },
+			{ y: 1303, label: "Uttarkhand" },
+			{ y: 7738, label: "West Bengal" }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+
+	<div id="chartContainer" style="height: 550px; width: 100%;"></div>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	<div class="row">
+	<tr>
+	<div align="center">
+			<div margin-top="1500%">
+			
+				<iframe class="transparent" width="1250" height="930" frameborder="0" scrolling="no" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;position:absolute;top:1200px;left:150px;right:0px;bottom:0px;" src="https://onedrive.live.com/embed?resid=83AA2318FFAD351C%21551&authkey=%21AMqUUPMhnFtXqTw&em=2&wdAllowInteractivity=False&Item='data'!A1%3AD39&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdHideSheetTabs=True&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True"</frame>
+
+	
+			</div> 
+	
+			</div>
+	</div>
+	<iframe src="https://onedrive.live.com/embed?cid=83AA2318FFAD351C&resid=83AA2318FFAD351C%21559&authkey=ABtWW53A752FYdc&em=2" width="402" height="346" frameborder="0" scrolling="no"></iframe>
+	
+</body>
+</html>

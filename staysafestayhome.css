@@ -1,0 +1,15 @@
+body{
+  background-image:url(backgd.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bolder;
+
+  margin: 0px
+}
+
+
+.jumbotron{
+  background: rgba(255, 255, 255, 0.6)
+
+}

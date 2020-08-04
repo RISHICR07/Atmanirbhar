@@ -1,0 +1,45 @@
+ body 
+{
+  background:url(https://image.freepik.com/free-vector/abstract-polygonal-world-map-with-hot-points-network-connections_110633-269.jpg);
+  background-size:cover;
+  margin-left:10px;
+  margin-right:10px;
+  
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size:400%;
+  background-color:black;
+  font-style:bold;
+
+}
+h2 {
+  margin-top:0px;
+  font-style:italic;
+  color: orange;
+  text-align: center;
+  font-size:150%;
+  font-style:bold;
+
+}
+h3
+{
+	color:white;
+	font-style:oblique;
+	text-align:center;
+	font-size:bold;
+	background-color:black;
+	margin-left:30%;
+	margin-right:50%;
+	
+}
+iframe {
+  background-color: transparent;
+  border: 0;
+  color: black;
+}
+iframe.transparent {
+  opacity: 0.7;
+}
+
